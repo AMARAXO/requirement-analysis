@@ -67,3 +67,15 @@ Scalability: Allow the system to expand as user demand increases.
 Usability: Create an intuitive user interface for ease of navigation.
 Reliability: Guarantee 99.9% uptime and quick recovery from failures.
 
+# Use Case Diagrams
+
+### What are Use Case Diagrams?
+Use Case Diagrams are a visual representation of the interactions between actors (users or other systems) and the system under development. They provide a high-level overview of the system's functionality and help in understanding the requirements.
+
+### Benefits of Use Case Diagrams
+- **Requirement Clarity:** They help stakeholders understand system requirements at a glance.
+- **Communication Tool:** Aid in effective communication between developers and non-technical stakeholders.
+- **Early Identification of System Features:** Highlight key functionalities and their interactions.
+- **User-Centric Design:** Focus on how the system serves its users.
+
+
