@@ -52,14 +52,14 @@ Acceptance Criteria: Setting specific, measurable standards for feature completi
 Traceability: Linking requirements to development and testing stages.
 
 # Types of Requirements
-1. Functional Requirements ⚙️
+# 1. Functional Requirements ⚙️
 Define system capabilities, e.g.:
 Search Properties: Allow users to filter properties by location, price, and amenities.
 User Registration: Enable account creation and profile management.
 Property Listings: Display property details with images and descriptions.
 Booking System: Facilitate property reservations and confirmation.
 
-2. Non-functional Requirements 🛡️
+# 2. Non-functional Requirements 🛡️
 Specify system qualities, e.g.:
 Performance: Ensure the system loads within 2 seconds for 1000 concurrent users.
 Security: Protect user data through encryption and secure authentication.
