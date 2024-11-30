@@ -78,4 +78,51 @@ Use Case Diagrams are a visual representation of the interactions between actors
 - **Early Identification of System Features:** Highlight key functionalities and their interactions.
 - **User-Centric Design:** Focus on how the system serves its users.
 
+(![Use Case Diagram](alx-booking-uc.png.png))
 
+### Importance of Acceptance Criteria in Requirement Analysis
+Acceptance criteria are essential in requirement analysis as they establish clear, testable conditions that a feature must meet to be deemed complete and satisfactory. These criteria ensure all stakeholders—developers, testers, and clients—have a shared understanding of what constitutes a successful implementation.
+
+## Why Are Acceptance Criteria Important?
+Clarity and Alignment:
+They eliminate ambiguity by providing specific, measurable goals for each feature. This ensures developers understand exactly what needs to be built and stakeholders know what to expect.
+
+Quality Assurance:
+With clearly defined criteria, QA teams can verify if the feature meets the defined standards, ensuring the final product aligns with user requirements.
+
+Scope Control:
+Acceptance criteria help avoid scope creep by defining the boundaries of what a feature should and shouldn’t do.
+
+Enhanced Communication:
+They bridge the gap between technical and non-technical stakeholders, facilitating better collaboration and understanding.
+
+Foundation for Testing:
+Acceptance criteria act as the basis for test case development, ensuring the feature performs as expected in all scenarios.
+
+### Example: Acceptance Criteria for a Checkout Feature in a Booking Management System
+Feature Name:
+Checkout Feature
+
+Acceptance Criteria:
+Basic Functionality:
+
+The user should be able to review the booking summary, including hotel details, dates, price breakdown, and taxes.
+The user must be able to input payment details securely via a payment gateway.
+Validation:
+
+If mandatory fields (e.g., payment details, contact information) are left empty, the system should display an error message prompting the user to complete the fields.
+Payment details must pass validation checks (e.g., valid card number, expiry date).
+Booking Confirmation:
+
+Upon successful payment, the user should receive a confirmation message on the screen.
+A confirmation email with the booking details should be sent to the user.
+Error Handling:
+
+If the payment fails, the system should notify the user and provide options to retry or change the payment method.
+If the system encounters a technical issue, a friendly error message should be displayed, and no payment should be processed.
+Performance:
+
+The checkout process should complete within 5 seconds under normal server conditions.
+Security:
+
+Payment details should be handled securely via HTTPS and comply with PCI DSS standards.
